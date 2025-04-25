@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { getStoredBook } from '../../Utility/addToDB';
 import Book from '../../Pages/Book/Book';
+import { Helmet } from 'react-helmet-async';
 
 const ReadList = () => {
     const [readList, setReadList] = useState([])
@@ -37,6 +38,9 @@ const ReadList = () => {
 
     return (
         <div className='mt-12'>
+            <Helmet>
+                <title>Boi Poka | Read-List</title>
+            </Helmet>
             <div className='text-center'>
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn m-1">Sort By: {sort ? sort : ''}</div>

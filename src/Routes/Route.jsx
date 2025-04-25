@@ -15,7 +15,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader:() => fetch('booksData.json'),
+                loader:() => fetch('/booksData.json'),
                 path: '/',
                 Component: Home,
             },
@@ -26,14 +26,14 @@ export const router = createBrowserRouter([
             // make this path for the show new Read List that added
             {
                 path:'readList',
-                loader:() => fetch('booksData.json'),
+                loader:() => fetch('/booksData.json'),
                 Component: ReadList,
             },
 
             // make a dynamic rout for each card that they can show them at /about
             {
                 path: '/bookDetails/:id',
-                loader:() => fetch('booksData.json'),
+                loader:() => fetch('/booksData.json'),
                 Component: BookDetaills,
             },
             

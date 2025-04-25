@@ -1,8 +1,9 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { addToStoredDB } from '../../Utility/addToDB';
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+import { Helmet } from 'react-helmet-async';
 
 // this for sweet alert
 const MySwal = withReactContent(Swal)
@@ -40,6 +41,9 @@ const BookDetaills = () => {
 
     return (
         <div className='flex justify-center items-center gap-5 mt-20 mb-20'>
+            <Helmet>
+                <title>Boi Poka | Details: {bookName}</title>
+            </Helmet>
             <div className='bg-[#F3F3F3] rounded-xl w-1/3 flex justify-center items-center'>
                 <img className='w-[20rem] p-7' src={image} alt="" />
             </div>
