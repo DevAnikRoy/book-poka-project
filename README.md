@@ -1,10 +1,10 @@
-📚 Book Vibe
+# H1 📚 **Book Vibe**
 Book Vibe is a web application designed to connect book enthusiasts and create a vibrant online community. Discover new reads, share reviews, and engage with fellow readers!
 
-🚀 Live Demo
-🔗 View the App on Netlify
+# H1 🚀 Live Demo
+# H2 🔗 View the App on Netlify
 
-✨ Features
+# H3 ✨ Features
 Modern and Engaging Design: Clean layout with subtle animations and interactive elements.
 
 Responsive Layout: Seamless experience across mobile, tablet, and desktop.
@@ -15,8 +15,8 @@ Partners Section: Animated logos and hover effects.
 
 Dynamic Text: Gradient text and smooth animations to highlight key messages.
 
-🛠️ Frontend Tech Stack
-React - Build user interfaces
+# H3 🛠️ Frontend Tech Stack
+1. Item React - Build user interfaces
 
 React Router - Routing and navigation
 
@@ -32,7 +32,7 @@ React Tabs - Tabbed navigation
 
 React Helmet Async - Managing document head
 
-⚙️ Frontend Dependencies
+# H3 ⚙️ Frontend Dependencies
 json
 Copy
 Edit
