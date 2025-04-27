@@ -1,10 +1,10 @@
-# H1 (📚 **Book Vibe**)
+# 📚 **Book Vibe**
 Book Vibe is a web application designed to connect book enthusiasts and create a vibrant online community. Discover new reads, share reviews, and engage with fellow readers!
 
-# H3 (🚀 Live Demo)
-#H3 🔗 Netlify Link: https://chipper-zabaione-a76cbc.netlify.app/
+## 🚀 Live Demo
+### 🔗 Netlify Link: https://chipper-zabaione-a76cbc.netlify.app/
 
-# H3 (✨ Features)
+## ✨ Features
 Modern and Engaging Design: Clean layout with subtle animations and interactive elements.
 
 Responsive Layout: Seamless experience across mobile, tablet, and desktop.
@@ -15,27 +15,26 @@ Partners Section: Animated logos and hover effects.
 
 Dynamic Text: Gradient text and smooth animations to highlight key messages.
 
-# H3 (🛠️ Frontend Tech Stack)
-Item React - Build user interfaces
+## 🛠️ Frontend Tech Stack
+1. Item React - Build user interfaces
 
-React Router - Routing and navigation
+2. React Router - Routing and navigation
 
-Tailwind CSS - Styling and responsive design
+3. Tailwind CSS - Styling and responsive design
 
-Lucide React - Icon set
+4. Lucide React - Icon set
 
-Vite - Fast build tool
+5. Vite - Fast build tool
 
-SweetAlert2 - Elegant popup alerts
+6. SweetAlert2 - Elegant popup alerts
 
-React Tabs - Tabbed navigation
+7. React Tabs - Tabbed navigation
 
-React Helmet Async - Managing document head
+8. React Helmet Async - Managing document head
 
-# H3 (⚙️ Frontend Dependencies)
-json
-Copy
-Edit
+### ⚙️ Frontend Dependencies
+
+`
 "@tailwindcss/vite": "^4.1.4",
 "lucide-react": "^0.503.0",
 "react": "^19.0.0",
@@ -46,4 +45,4 @@ Edit
 "react-tabs": "^6.1.0",
 "sweetalert2": "^11.19.1",
 "sweetalert2-react-content": "^5.1.0",
-"tailwindcss": "^4.1.4"
+"tailwindcss": "^4.1.4"   `
