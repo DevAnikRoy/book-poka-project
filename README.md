@@ -1,10 +1,10 @@
-H1 📚 **Book Vibe**
+# H1 (📚 **Book Vibe**)
 Book Vibe is a web application designed to connect book enthusiasts and create a vibrant online community. Discover new reads, share reviews, and engage with fellow readers!
 
-H3 🚀 Live Demo
+# H3 (🚀 Live Demo)
 #H3 🔗 Netlify Link: https://chipper-zabaione-a76cbc.netlify.app/
 
-H3 ✨ Features
+# H3 (✨ Features)
 Modern and Engaging Design: Clean layout with subtle animations and interactive elements.
 
 Responsive Layout: Seamless experience across mobile, tablet, and desktop.
@@ -15,7 +15,7 @@ Partners Section: Animated logos and hover effects.
 
 Dynamic Text: Gradient text and smooth animations to highlight key messages.
 
-# H3 🛠️ Frontend Tech Stack
+# H3 (🛠️ Frontend Tech Stack)
 Item React - Build user interfaces
 
 React Router - Routing and navigation
@@ -32,7 +32,7 @@ React Tabs - Tabbed navigation
 
 React Helmet Async - Managing document head
 
-H3 ⚙️ Frontend Dependencies
+# H3 (⚙️ Frontend Dependencies)
 json
 Copy
 Edit
